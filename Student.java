@@ -16,7 +16,7 @@ public class Student {
 
     /**
      * To create a new student by initializing.
-     * Fees for every student is $30,000.
+     * Fees for every student is Rs30,000.
      * Fees paid initially is 0.
      * @param id id for the student: unique.
      * @param name name of the student.
@@ -106,6 +106,6 @@ public class Student {
     @Override
     public String toString() {
         return "Student's name :"+name+
-                " Total fees paid so far $"+ feesPaid;
+                " Total fees paid so far Rs"+ feesPaid;
     }
 }
