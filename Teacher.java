@@ -1,7 +1,6 @@
 package schoolmanagementsystem;
 
 /**
- * Created by Rakshith on 4/3/2017.
  * This class is responsible for keeping the track
  * of teacher's name, id, salary.
  */
@@ -72,7 +71,7 @@ public class Teacher {
     @Override
     public String toString() {
         return "Name of the Teacher: " + name
-                +" Total salary earned so far $"
+                +" Total salary earned so far Rs"
                 + salaryEarned;
     }
 }
